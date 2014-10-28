@@ -1,1 +1,2 @@
 find clingo-4.4.0-source -type f | sed 's/^/include /' > MANIFEST.in
+echo 'include pip-readme.rst' >> MANIFEST.in

@@ -7,7 +7,7 @@ VERSION = "4.4.0.dev1"
 
 
 def readme():
-    with open('README.rst') as f:
+    with open('pip-readme.rst') as f:
         return f.read()
 
 if "--compile" in sys.argv:

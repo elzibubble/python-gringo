@@ -1,27 +1,12 @@
-This packages clingo-4.4.0 [1]_. To use it, simply "import gringo".
-Documentation is here [2]_.
+python-gringo
+=============
 
-Requirements
-============
+Download, activate the virtualenv of your choice, then::
 
-- a c++11 conforming compiler
-    gcc version 4.8 (earlier versions will not work)
-    clang version 3.1 (using either libstdc++ provided by gcc 4.8 or libc++)
-    other compilers might work
-- the bison parser generator
-    version 3.0 is tested (produces warnings to stay backwards-compatible)
-    version 2.5 and newer should work (earlier versions will not work)
-- the re2c lexer generator
-    version 0.13.5 is tested
-    newer versions should work
-- the scons build system
-    version 2.2 is tested
-    version 2.1 and newer should work
-- the python script language
-    version 2.7 is tested
-- the tbb library
-    version 4.0+r233 is tested
-    newer versions should work
+  python setup.py sdist
+  pip install dist/gringo-*.tar.gz
+
+This solution includes the whole clingo source [1]_. It should be fairly simple
+to swap in a new version, just be sure to set up build/release.py correctly.
 
 .. [1] http://sourceforge.net/projects/potassco/files/clingo/4.4.0/
-.. [2] http://potassco.sourceforge.net/gringo.html

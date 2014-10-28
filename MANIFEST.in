@@ -432,3 +432,4 @@ include clingo-4.4.0-source/examples/scripting/unblock/inst4.lp
 include clingo-4.4.0-source/examples/scripting/unblock/inst3.lp
 include clingo-4.4.0-source/examples/scripting/unblock/inst5.lp
 include clingo-4.4.0-source/examples/scripting/unblock/inst1.lp
+include pip-readme.rst
