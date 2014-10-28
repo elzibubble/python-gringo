@@ -1,0 +1,1 @@
+find clingo-4.4.0-source -type f | sed 's/^/include /' > MANIFEST.in
