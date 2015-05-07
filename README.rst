@@ -9,7 +9,7 @@ Download, activate the virtualenv of your choice, then::
 This solution includes the whole clingo source [1]_. It should be fairly simple
 to swap in a new version, just be sure to set up build/release.py correctly.
 
-There is an exemple of release.py that compile clingo with multithread (TBB downloadable [here](http://www.threadingbuildingblocks.org/) if not in your repository) and python2.7 support::
+There is an exemple of release.py that compile clingo with multithread (TBB is downloadable manually [2]_ if not in your repository) and python2.7 support::
 
   CXX = 'g++'
   CXXFLAGS = ['-std=c++11', '-O3', '-Wall']
@@ -32,3 +32,4 @@ There is an exemple of release.py that compile clingo with multithread (TBB down
 
 
 .. [1] http://sourceforge.net/projects/potassco/files/clingo/4.5.0/
+.. [2] http://www.threadingbuildingblocks.org/
