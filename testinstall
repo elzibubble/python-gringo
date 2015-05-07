@@ -1,4 +1,4 @@
 pip uninstall -y gringo
 rm -fr dist gringo.egg-info
 python setup.py sdist
-pip install dist/gringo-4.4.0.dev1.tar.gz --upgrade
+pip install dist/gringo-4.5.0.dev1.tar.gz --upgrade

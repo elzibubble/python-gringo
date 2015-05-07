@@ -2,8 +2,8 @@ import setuptools
 import subprocess
 import sys
 
-CLINGO_SRC = 'clingo-4.4.0-source'
-VERSION = "4.4.0.dev1"
+CLINGO_SRC = 'clingo-4.5.0-source'
+VERSION = "4.5.0"
 
 
 def readme():
@@ -28,7 +28,7 @@ setuptools.setup(
                 [CLINGO_SRC + '/build/release/python/gringo.so']),
                 ('lib/python2.7/site-packages/gringo-' + VERSION,
                 [(CLINGO_SRC + "/" + f) for f in
-                    ['CHANGES', 'COPYING', 'INSTALL', 'NOTES', 'README']])],
+                    ['CHANGES', 'COPYING', 'INSTALL', 'README']])],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Programming Language :: C++",
