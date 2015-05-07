@@ -1,15 +1,15 @@
-This source distributable packages clingo-4.4.0 [1]_. You will need several
+This source distributable packages clingo-4.5.0 [1]_. You will need several
 libraries available for it to install correctly. You should end up with
 something like this::
 
     <virtualenv>/lib/python2.7/site-packages
-    ├── gringo-4.4.0.dev1
+    ├── gringo-4.5.0.dev1
     │   ├── CHANGES
     │   ├── COPYING
     │   ├── INSTALL
     │   ├── NOTES
     │   └── README
-    ├── gringo-4.4.0.dev1-py2.7.egg-info
+    ├── gringo-4.5.0-py2.7.egg-info
     │   ├── dependency_links.txt
     │   ├── installed-files.txt
     │   ├── not-zip-safe
@@ -42,5 +42,5 @@ Requirements
     version 4.0+r233 is tested
     newer versions should work (not libtbb2)
 
-.. [1] http://sourceforge.net/projects/potassco/files/clingo/4.4.0/
+.. [1] http://sourceforge.net/projects/potassco/files/clingo/4.5.0/
 .. [2] http://potassco.sourceforge.net/gringo.html

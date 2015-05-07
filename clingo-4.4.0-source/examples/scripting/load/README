@@ -1,5 +1,0 @@
-This example shows how to extend a logic program.
-
-Example Calls:
-    clingo load.lp
-    gringo -t load.lp

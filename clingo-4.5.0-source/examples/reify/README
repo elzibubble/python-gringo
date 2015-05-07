@@ -1,0 +1,19 @@
+Example Calls
+=============
+
+Non-reified + Cardinality Minimization
+--------------------------------------
+
+$ clingo example1.lp --opt-mode=optN -q1 0
+
+Reified + Cardinality Minimization
+----------------------------------
+
+$ clingo example1.lp --pre --rewrite-minimize | reify --calculate-sccs |\
+  clingo -Wno-atom-undefined - meta.lp metaD.lp metaO.lp <(echo "optimize(0,1,card).") 0
+
+Reified + Subset Minimization
+-----------------------------
+
+$ clingo example1.lp --pre --rewrite-minimize | reify --calculate-sccs |\
+  clingo -Wno-atom-undefined - meta.lp metaD.lp metaO.lp <(echo "optimize(0,1,incl).") 0
