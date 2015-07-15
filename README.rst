@@ -26,9 +26,9 @@ There is an exemple of release.py that compile clingo with multithread (TBB is d
   BISON = 'bison'
   RE2C = 're2c'
   WITH_PYTHON = 'python2.7'
-  WITH_LUA = None
+  WITH_LUA = 'auto'
   WITH_TBB = 'tbb'
-  WITH_CPPUNIT = None
+  WITH_CPPUNIT = 'auto'
 
 
 .. [1] http://sourceforge.net/projects/potassco/files/clingo/4.5.1/
