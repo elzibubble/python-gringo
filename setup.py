@@ -2,8 +2,8 @@ import setuptools
 import subprocess
 import sys
 
-CLINGO_SRC = 'clingo-4.5.0-source'
-VERSION = "4.5.0"
+VERSION = "4.5.1"
+CLINGO_SRC = 'clingo-' + VERSION + '-source'
 
 
 def readme():
